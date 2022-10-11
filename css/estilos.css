@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fondonegro{
+    background-color: black;
+}
+.titulomarron{
+    color:rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    background-color: rgb(54, 54, 54);
+    color:aliceblue;
+    font-size: 20px; 
+    
+}
+
+.facebook{
+    width:35px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;    
+}
+.instagram{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;   
+}
+.whatsapp{
+    width: 50px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+      
+}
+
+.navegador ul {
+    margin-left: 650px;
+
+}
+.navegador ul li{
+    display: inline-block;
+    padding: 20px 20px;
+    list-style-type: none;
+    color:aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+
+
+  }
+.principal{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    background-image:
+    url(https://cc1.cafetearte.es/img/ybc_blog/post/cafe_en_grano_vs_molido_blog.jpg);
+    background-size: 2000px;
+    padding: 300px;
+       
+    }
+
+.parrafoprincipal{
+        color: aliceblue;
+        display: inline-block;
+        font-size: 20px;
+        width: 800px;
+        height: 400px;
+        margin-left: 35px;
+        text-align: justify;
+}
+
+.fotoprincipal2{
+    width: 1000px;
+    height: 460px;
+    position: absolute;
+    top: 855px;
+    right: 25px;
+}
+.quehacemos{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+.Encontranos{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 910px;
+    margin-top: 20px;
+}
+.somos{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-left: 350px;
+}
+.parrafosomos{
+    color: aliceblue;
+    font-size: 15px;
+    display: inline-block;
+    width: 950px;
+    text-align: justify;
+    margin: 15px 20px 30px 20px;
+
+}
+.mapa{
+    margin-left: 700px;
+}
+.fotonosotros{
+    height: 450px;
+    width: 900px;
+
+}
+#cafes{
+    color: aliceblue;
+
+
+}
+
+.americano{
+    height: 300px;
+    width: 400px;
+
+
+}
+.lungo{
+    height: 400px;
+    width: 400px;
+}
+.frappe{
+
+    height: 400px;
+    width: 400px;
+}
+.capuccino{
+    height: 400px;
+    width: 400px;
+}
+
+.titulocafe{
+    margin-left: 800px;
+    font-size: 40px;
+}
+.cafe1{
+    width: 400px;
+    display: inline-block;
+}
+.cafe0{
+    width: 1000px;
+    margin-left: 550px;
+}
+.cafelungo{
+    margin-left: 300px;
+}
+.cafetitulo{
+    font-size: 30px;
+    margin-left: 130px;
+
+    margin-bottom: 10px;
+}
+.cafe3{
+    margin-left: 550px;
+}
+.cafetextos{
+    margin-bottom: 15px;
+}
+.tostado{
+    width: 400px;
+    height: 300px;
+}
