@@ -12,14 +12,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: flex-start;
-    grid-area: header;
 }
 
 .footer{
+
     background-color: rgb(54, 54, 54);
     color:aliceblue;
     font-size: 20px; 
-        
 }
 
 .facebook{
@@ -45,8 +44,8 @@
 }
 .navegador{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-start;
+    justify-content:flex-start
 }
 
 .navegador ul{
@@ -60,10 +59,7 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    width: 900px;
-
-
-
+    width: 600px;
   }
 .principal{
     color: aliceblue;
@@ -73,8 +69,7 @@
     background-image:
     url(https://cc1.cafetearte.es/img/ybc_blog/post/cafe_en_grano_vs_molido_blog.jpg);
     background-size: 2000px;
-    padding: 300px;
-       
+    padding: 300px;       
     }
 
 .parrafoprincipal{
@@ -106,31 +101,60 @@
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
-    margin-left: 910px;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+
+
 }
+
 .somos{
+    display: flex;
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 35px;
-    margin-left: 350px;
-}
-.parrafosomos{
-    color: aliceblue;
-    font-size: 15px;
-    display: inline-block;
-    width: 950px;
-    text-align: justify;
-    margin: 15px 20px 30px 20px;
+    animation-name: agrandar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
 
 }
-.mapa{
-    margin-left: 700px;
+.parrafosomos{
+    display: flex;
+    color: aliceblue;
+    font-size: 15px;
+}
+.parrafotitulonosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.parrafotitulonosotros2{
+    padding: 50px;
+
+}
+.mainosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 .fotonosotros{
     height: 450px;
     width: 900px;
+    border-radius: 50px;
+}
+@keyframes agrandar {
+    0%{font-size: 35px;}
+    25%{font-size: 40px;}
+    50%{font-size: 45px;}
+    75%{font-size: 40px;}
+    100%{font-size: 35px;}
 
+ 
+    
 }
 #cafes{
     color: aliceblue;
@@ -138,15 +162,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-
 }
 
 .americano{
     height: 300px;
     width: 400px;
-
-
 }
 
 .frappe{
@@ -224,4 +244,32 @@
 a{
     text-decoration: none;
     color: aliceblue;
+}
+
+.contenedornosotros{
+    background-color: black;
+    display: grid;
+
+}
+@media screen and (max-width: 500px){
+    .contenedornosotros{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.1fr 2fr 0.1fr;
+        grid-area: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    }
+    .parrafotitulonosotros{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .centrotitulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
