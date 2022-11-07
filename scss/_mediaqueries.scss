@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 500px){
+    .contenedornosotros{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.1fr 2fr 0.1fr;
+        grid-area: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    .parrafotitulonosotros{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .centrotitulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+}
+@media screen and (max-width: 500px){
+    .contenedorcafes{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.1fr 1fr 0.1fr;
+        grid-area: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    .cafe0{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+}

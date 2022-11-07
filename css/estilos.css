@@ -87,9 +87,6 @@
     font-size: 30px;
     display: flex;
     justify-content: center;
-
-
-
 }
 
 .somos{
@@ -265,7 +262,7 @@ a{
 .seccion1{
     display:flex;
     justify-content: space-around;
-    align-items: centerg;
+    align-items: center;
 }
 .contenedorinicio{
     background-color: black;
